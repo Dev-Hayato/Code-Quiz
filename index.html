@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
     <title>Code Quiz</title>
 </head>
 <body>
+ <p id="countDown"></p>
+  <section>  
+    <h1 class="container">What is HTML an abbreviation for?</h1>
 
-    <p class="container">Question One</p>
-    <ol>
-        <li>choice1</li>
-        <li>choice2</li>
-        <li>choice3</li>
-        <li>choice4</li>
-    </ol>
+    <div class="quiz-btn">
+        <button> HotMeal</button>
+        <button>How to move luggage</button>
+        <button>Hyper Type Mode linguistics</button>
+        <button>Hyper Text Markup Language</button>
+    </div>
+    <button onclick="myFunction()">Check Your Answer</button>
+    <p id="win"></p>
+  </section>
+  
+  <hr>
 
     <p class="container2">Question Two</p>
     <ol>
@@ -24,7 +35,7 @@
         <li>choice4</li>
     </ol>
 
-    <p class="container2">Question Two</p>
+    <p class="container3">Question Two</p>
     <ol>
         <li>choice1</li>
         <li>choice2</li>
@@ -32,6 +43,6 @@
         <li>choice4</li>
     </ol>
 
-    <script>src ="script.js"</script>
+    <script src ="script.js"></script>
 </body>
 </html>

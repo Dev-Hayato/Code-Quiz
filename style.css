@@ -1,0 +1,29 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.container, .container2, .container3 {
+    text-align: none;
+}
+
+ol {
+    text-align: center;
+}
+
+.quiz-btn {
+    background-color: hsl(209, 69%, 61%);
+    border: 1px solid #0462ce;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+      }
+
+.quiz-btn:not(:last-child) {
+  border-bottom: none;
+}
+
+
+.quiz-btn:hover {
+  background-color: hsl(194, 66%, 45%);
+}    
